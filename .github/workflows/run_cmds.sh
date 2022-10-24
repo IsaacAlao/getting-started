@@ -1,4 +1,4 @@
-          #!/bin/bash
+          #!/bin/sh
           
           echo What is in this directory? && ls -la
           echo
