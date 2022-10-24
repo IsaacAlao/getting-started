@@ -8,3 +8,5 @@
           mvn --version
           gradle --version
           ant -version
+          mcs --version
+          mono --version
