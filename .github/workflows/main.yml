@@ -27,18 +27,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: bash ./run_cmds.sh
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo What is in this directory? && ls -la
-          echo
-          echo Is Java installed?
-          java --version
-          echo Is Git installed?
-          git --version
-          echo What about build tools?
-          mvn --version
-          gradle --version
-          ant -version
+        
