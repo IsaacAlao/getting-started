@@ -3,5 +3,6 @@
           echo Is Git installed?
           git --version
           echo What about build tools?
-          echo "NPM VERSION"
-          npm --version
+          echo "NPM VERSION: $(npm --version)" 
+          echo "Is cypress installed?"
+          npm list -g
